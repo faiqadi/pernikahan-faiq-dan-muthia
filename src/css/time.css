@@ -5,7 +5,7 @@
     padding: 10rem 8rem;
     position: relative;
     color: #fff;
-    background: url('../assets/images/3.jpeg') center center / cover no-repeat fixed;
+    background: url('../assets/images/3.jpeg') 65% center / cover no-repeat fixed;
 }
 
 .time::before {

@@ -94,15 +94,23 @@ export const data = {
         },
         {
             id: 4,
-            image: './src/assets/images/4.jpg'
+            image: './src/assets/images/9.jpeg'
         },
         {
             id: 5,
-            image: './src/assets/images/5.jpg'
+            image: './src/assets/images/4.jpg'
         },
         {
             id: 6,
+            image: './src/assets/images/5.jpg'
+        },
+        {
+            id: 7,
             image: './src/assets/images/6.jpg'
+        },
+        {
+            id: 8,
+            image: './src/assets/images/7.png'
         }
     ],
 
@@ -127,21 +135,21 @@ export const data = {
             date: '2023',
             title: 'Awal Bertemu',
             description: 'Tidak ada yang kebetulan di dunia ini. Semua sudah tersusun dengan sangat rapi oleh Sang Maha Kuasa. Kita tidak bisa memilih kepada siapa kita akan jatuh cinta, karena cinta datang pada waktu yang tepat. Kami dipertemukan untuk pertama kalinya pada tahun 2023 di Alun-Alun Kidul, Kota Yogyakarta — sebuah pertemuan sederhana yang kemudian menjadi awal dari kisah indah kami.',
-            image: './src/assets/images/1.jpeg'
+            image: './src/assets/images/tour.png'
         },
         {
             id: 2,
             date: '2023 - 2025',
             title: 'Perjalanan Bersama',
             description: 'Katanya, cinta dapat tumbuh melalui kebersamaan. Seiring berjalannya waktu, kami semakin dekat dan saling memahami. Kami menjalin hubungan selama dua tahun hingga akhirnya Tuhan menakdirkan kami untuk bersama.',
-            image: './src/assets/images/2.jpeg'
+            image: './src/assets/images/fam1.png'
         },
         {
             id: 3,
             date: '2025',
             title: 'Menuju Pelaminan',
             description: 'Kehendak-Nya mempertemukan kami pada waktu yang tak terduga. Pada September 2025, kami melangsungkan lamaran sebagai langkah awal menuju kisah baru yang diridhoi-Nya. Dengan penuh rasa syukur, kami akan mengikrarkan janji suci pernikahan pada 6 Desember 2025, memulai perjalanan hidup bersama dalam cinta dan keberkahan.',
-            image: './src/assets/images/3.jpeg'
+            image: './src/assets/images/1.jpeg'
         }
     ],
 
