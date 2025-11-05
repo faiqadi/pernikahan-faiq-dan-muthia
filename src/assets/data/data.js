@@ -32,7 +32,8 @@ export const data = {
             hours: {
                 start: '08.15',
                 finish: 'Selesai'
-            }
+            },
+            id: 1
         },
         reception: {
             year: '2025',
@@ -42,7 +43,8 @@ export const data = {
             hours: {
                 start: '10.00',
                 finish: '13.00'
-            }
+            },
+            id: 2
         },
         address: 'Graha Nusantara - Jl. Mr. Iskandar No.95, Beran, Mlangsen, Kec. Blora, Kabupaten Blora, Jawa Tengah'
     },
