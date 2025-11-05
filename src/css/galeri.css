@@ -1,15 +1,15 @@
 .galeri {
     width: 100%;
-    min-height: 100vh;
+    min-height: 90vh;
     text-align: center;
-    padding: 4rem 8rem 4rem;
+    padding: 4rem 8rem 6rem;
     margin-top: -6rem;
     position: relative;
 }
 
 .galeri .container {
     width: 100%;
-    padding: 0 1.5rem 2rem;
+    padding: 6rem 1.5rem 2rem;
     border-radius: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 -1px 1px rgba(0, 0, 0, 0.1);
     position: relative;

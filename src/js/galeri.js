@@ -8,8 +8,8 @@ export const galeri = () => {
     const [__, showAllBox, closeButton] = showAllContainer.children;
 
     const initializeGallery = () => {
-        const initialImage = data.galeri[0];
-        figureElement.innerHTML = `<img src="${initialImage.image}" alt="galeri image" id="${initialImage.id}">`;
+        const initialImage = data.preview[0];
+        figureElement.innerHTML = `<img src="${initialImage.image}" alt="preview image" id="${initialImage.id}">`;
 
         data.galeri.forEach((item, index) => {
             paginationElement.innerHTML += `<li data-id="${item.id}" ${index === 0 ? 'class="active"' : ''}></li>`;
@@ -19,10 +19,10 @@ export const galeri = () => {
     };
 
     const updateGalleryImage = (id) => {
-        const selectedImage = data.galeri.find(item => item.id === id);
+        const selectedImage = data.preview.find(item => item.id === id);
 
         if (selectedImage) {
-            figureElement.innerHTML = `<img src="${selectedImage.image}" alt="galeri image" id="${selectedImage.id}">`;
+            figureElement.innerHTML = `<img src="${selectedImage.image}" alt="preview image" id="${selectedImage.id}">`;
 
             paginationElement.querySelectorAll('li').forEach((li) => {
                 li.classList.toggle('active', parseInt(li.dataset.id) === id);

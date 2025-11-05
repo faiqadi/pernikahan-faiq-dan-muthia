@@ -4,6 +4,20 @@
     text-align: center;
     padding: 10rem 8rem;
     position: relative;
+    color: #fff;
+    background: url('../assets/images/4.jpg') center center / cover no-repeat fixed;
+}
+
+.bride::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.bride > * {
+    position: relative;
+    z-index: 1;
 }
 
 .bride h2 {

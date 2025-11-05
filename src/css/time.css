@@ -4,6 +4,20 @@
     text-align: center;
     padding: 10rem 8rem;
     position: relative;
+    color: #fff;
+    background: url('../assets/images/3.jpeg') center center / cover no-repeat fixed;
+}
+
+.time::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.time > * {
+    position: relative;
+    z-index: 1;
 }
 
 .time h2 {
@@ -30,7 +44,7 @@
     padding: 0.5rem 1rem;
     color: #fff;
     font-size: 1rem;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.7);
     margin: 2rem auto 1rem;
     border-radius: 20px;
     width: fit-content;

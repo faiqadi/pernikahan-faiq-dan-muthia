@@ -44,9 +44,9 @@
 }
 
 .welcome figure img {
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
+    width: 20;
+    height: 20rem;
+    border-radius: 25%;
     object-fit: cover;
     box-shadow: var(--shadow-md);
     border: 2px solid #fff;

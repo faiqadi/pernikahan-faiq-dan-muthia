@@ -6,7 +6,7 @@ export const home = () => {
     const [_, figureElement, timeElement, homeTime, calendarAnchor] = homeContainer.children;
 
     const generateFigureContent = ({bride}) => {
-        const {L: {name: brideLName}, P: {name: bridePName}, couple: coupleImage} = bride;
+        const {L: {name: brideLName}, P: {name: bridePName}, coupleHome: coupleImage} = bride;
         return `
             <img src="${coupleImage}" alt="couple animation">
             <figcaption>
