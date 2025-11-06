@@ -1,9 +1,10 @@
 .galeri {
     width: 100%;
-    min-height: 90vh;
+    min-height: 45rem;
     text-align: center;
     padding: 4rem 8rem 6rem;
     margin-top: -6rem;
+    margin-bottom: 2rem;
     position: relative;
 }
 
