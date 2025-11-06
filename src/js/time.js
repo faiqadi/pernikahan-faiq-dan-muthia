@@ -10,7 +10,6 @@ export const time = () => {
         `<h3>${title}</h3>
          <p>${details.day}, ${details.date} ${details.month} ${details.year} <br> 
          Pukul ${details.hours.start} WIB sd ${details.hours.finish}</p>
-         <span style="display: ${details.id === 2 ? 'none' : 'block'}">Di Perumahan Griya Kamolan Indah</span>
          `
     );
 
@@ -20,3 +19,4 @@ export const time = () => {
     mapLink.href = data.link.map;
     addressParagraph.textContent = data.time.address;
 };
+{/* <span style="display: ${details.id === 2 ? 'none' : 'block'}">Di Perumahan Griya Kamolan Indah</span> */}
