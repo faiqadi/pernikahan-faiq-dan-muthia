@@ -6,10 +6,11 @@
     position: relative;
     text-align: center;
     margin-top: 1rem;
+    background: url('../assets/images/5.jpeg') 60% center / cover no-repeat fixed;
 }
 
-.wishas {
-    background: url('../assets/images/5.jpeg') center center / cover no-repeat fixed;
+.wishas.ios-device {
+    background-attachment: scroll;
 }
 
 .wishas::before {
