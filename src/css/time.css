@@ -8,6 +8,10 @@
     background: url('../assets/images/3.jpeg') center center / cover no-repeat fixed;
 }
 
+.time.ios-device {
+    background-attachment: scroll;
+}
+
 .time::before {
     content: "";
     position: absolute;
