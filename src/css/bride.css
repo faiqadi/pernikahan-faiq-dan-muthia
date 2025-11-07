@@ -147,10 +147,17 @@
     bottom: -15rem;
 }
 
-/* @media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) {
     .bride {
         background-attachment: fixed;
         background-size: 110% auto;
         background-position: center center;
     }
-} */
+}
+
+@media screen and (max-width: 768px) {
+    .bride {
+        background-attachment: fixed;
+        background-size: 110% auto;
+    }
+}

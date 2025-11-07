@@ -235,10 +235,17 @@
     right: 0;
     bottom: -15rem;
 }
-/* @media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) {
     .wishas {
         background-attachment: fixed;
         background-size: 110% auto;
         background-position: center center;
     }
-} */
+}
+
+@media screen and (max-width: 768px) {
+    .wishas {
+        background-attachment: fixed;
+        background-size: 110% auto;
+    }
+}

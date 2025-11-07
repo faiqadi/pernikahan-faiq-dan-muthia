@@ -62,10 +62,17 @@
     right: 8rem;
     top: 22rem;
 }
-/* @media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) {
     .time {
         background-attachment: fixed;
         background-size: 110% auto;
         background-position: center center;
     }
-} */
+}
+
+@media screen and (max-width: 768px) {
+    .time {
+        background-attachment: fixed;
+        background-size: 110% auto;
+    }
+}
