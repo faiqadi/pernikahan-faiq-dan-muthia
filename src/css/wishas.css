@@ -8,7 +8,7 @@
 }
 
 .wishas {
-    background: url('../assets/images/5.jpg') 60% center / cover no-repeat fixed;
+    background: url('../assets/images/5.jpg') center center / cover no-repeat;
 }
 
 .wishas::before {
@@ -234,4 +234,12 @@
     left: 0;
     right: 0;
     bottom: -15rem;
+}
+
+@media screen and (min-width: 769px) {
+    .wishas {
+        background-attachment: fixed;
+        background-size: 110% auto;
+        background-position: center center;
+    }
 }

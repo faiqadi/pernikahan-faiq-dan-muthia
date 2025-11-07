@@ -5,7 +5,7 @@
     padding: 10rem 8rem;
     position: relative;
     color: #fff;
-    background: url('../assets/images/7.png') 80% center / cover no-repeat fixed;
+    background: url('../assets/images/7.png') center center / cover no-repeat;
 }
 
 .bride::before {
@@ -145,4 +145,12 @@
 
 .hadist svg:nth-of-type(2){
     bottom: -15rem;
+}
+
+@media screen and (min-width: 769px) {
+    .bride {
+        background-attachment: fixed;
+        background-size: 110% auto;
+        background-position: center center;
+    }
 }
