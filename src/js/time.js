@@ -9,8 +9,7 @@ export const time = () => {
     const createTimeListItem = (title, details) => (
         `<h3>${title}</h3>
          <p>${details.day}, ${details.date} ${details.month} ${details.year} <br> 
-         Pukul ${details.hours.start} WIB sd ${details.hours.finish}</p>
-         `
+         Pukul ${details.hours.start} WIB sd ${details.hours.finish}</p>`
     );
 
     marriageDiv.innerHTML = createTimeListItem('Akad', data.time.marriage);
@@ -19,4 +18,3 @@ export const time = () => {
     mapLink.href = data.link.map;
     addressParagraph.textContent = data.time.address;
 };
-{/* <span style="display: ${details.id === 2 ? 'none' : 'block'}">Di Perumahan Griya Kamolan Indah</span> */}

@@ -5,7 +5,7 @@
     padding: 10rem 8rem;
     position: relative;
     color: #fff;
-    background: url('../assets/images/7.png') center center / cover no-repeat;
+    background: url('../assets/images/7.jpeg') center center / cover no-repeat fixed;
 }
 
 .bride::before {
@@ -61,9 +61,9 @@
 }
 
 .bride .bride_couple li figure figcaption {
-    font-size: 2rem;
+    font-size: var(--fontSize-heading-base);
     margin: 1rem 0;
-    font-family: var(--arabic);
+    font-family: var(--sacramento);
 }
 
 .bride .bride_couple span {
@@ -145,19 +145,4 @@
 
 .hadist svg:nth-of-type(2){
     bottom: -15rem;
-}
-
-@media screen and (min-width: 769px) {
-    .bride {
-        background-attachment: fixed;
-        background-size: 110% auto;
-        background-position: center center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .bride {
-        background-attachment: fixed;
-        background-size: 110% auto;
-    }
 }

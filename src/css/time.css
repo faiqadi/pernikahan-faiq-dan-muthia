@@ -5,7 +5,7 @@
     padding: 10rem 8rem;
     position: relative;
     color: #fff;
-    background: url('../assets/images/3.jpeg') center center / cover no-repeat;
+    background: url('../assets/images/3.jpeg') center center / cover no-repeat fixed;
 }
 
 .time::before {
@@ -61,18 +61,4 @@
 .time a + p + i {
     right: 8rem;
     top: 22rem;
-}
-@media screen and (min-width: 769px) {
-    .time {
-        background-attachment: fixed;
-        background-size: 110% auto;
-        background-position: center center;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .time {
-        background-attachment: fixed;
-        background-size: 110% auto;
-    }
 }
