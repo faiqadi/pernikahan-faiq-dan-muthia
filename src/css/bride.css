@@ -5,7 +5,8 @@
     padding: 10rem 8rem;
     position: relative;
     color: #fff;
-    background: url('../assets/images/7.jpeg') 55% center / cover no-repeat fixed;
+    background: url('../assets/images/7.jpeg') 60% center / cover no-repeat fixed;
+    margin-top: 2rem;
 }
 
 .bride.ios-device {
@@ -67,7 +68,7 @@
 .bride .bride_couple li figure figcaption {
     font-size: var(--fontSize-heading-base);
     margin: 1rem 0;
-    font-family: var(--sacramento);
+    /* font-family: var(--sacramento); */
 }
 
 .bride .bride_couple span {
