@@ -10,7 +10,7 @@ export const story = () => {
         return `
             <li data-aos="zoom-in" data-aos-duration="1000">
                 <figure>
-                    <img src="${image}" alt="${title}">
+                    <img src="${image}" alt="${title}" width="260" height="180" loading="lazy">
                 </figure>
                 <div class="content">
                     <time>${date}</time>

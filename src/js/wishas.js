@@ -19,7 +19,7 @@ export const wishas = () => {
 
     const listItemBank = (data) => (
         `  <figure data-aos="zoom-in" data-aos-duration="1000">
-                <img src=${data.icon} alt="bank icon animation">
+                <img src=${data.icon} alt="bank icon animation" width="160" height="48" loading="lazy">
                 <figcaption>No. Rekening ${data.rekening.slice(0, 4)}xxxx <br>A.n ${data.name}</figcaption>
                 <button data-rekening=${data.rekening} aria-label="copy rekening">Salin No. Rekening</button>
            </figure>`
