@@ -143,14 +143,14 @@ export const data = {
             id: 2,
             date: '2023 - 2025',
             title: 'Perjalanan Bersama',
-            description: 'Katanya, cinta dapat tumbuh melalui kebersamaan. Seiring berjalannya waktu, kami semakin dekat dan saling memahami. Kami menjalin hubungan selama dua tahun hingga akhirnya Tuhan menakdirkan kami untuk bersama.',
+            description: 'Katanya, cinta dapat tumbuh melalui kebersamaan. Seiring berjalannya waktu, kami semakin dekat dan saling memahami. Kami menjalin hubungan selama dua tahun hingga akhirnya kami melangsungkan lamaran pada tanggal 6 September 2025.',
             image: './src/assets/images/fam1.png'
         },
         {
             id: 3,
             date: '2025',
             title: 'Menuju Pelaminan',
-            description: 'Kehendak-Nya mempertemukan kami pada waktu yang tak terduga. Pada September 2025, kami melangsungkan lamaran sebagai langkah awal menuju kisah baru yang diridhoi-Nya. Dengan penuh rasa syukur, kami akan mengikrarkan janji suci pernikahan pada 6 Desember 2025, memulai perjalanan hidup bersama dalam cinta dan keberkahan.',
+            description: 'Kehendak-Nya mempertemukan kami pada waktu yang tak terduga. Dengan penuh rasa syukur, kami akan mengikrarkan janji suci pernikahan pada 6 Desember 2025, memulai perjalanan hidup bersama dalam cinta dan keberkahan.',
             image: './src/assets/images/1.jpeg'
         }
     ],
