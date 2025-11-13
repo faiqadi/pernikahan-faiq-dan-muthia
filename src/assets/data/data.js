@@ -19,7 +19,7 @@ export const data = {
             location: '- Batusangkar, Sumatera Barat -'
         },
 
-        couple: './src/assets/images/couple.png',
+        couple: './src/assets/images/front.png',
         coupleHome: './src/assets/images/couple2.png'
     },
 
