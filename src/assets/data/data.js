@@ -155,7 +155,7 @@ export const data = {
         }
     ],
 
-    audio: './src/assets/audio/wedding.mp3',
+    audio: './src/assets/audio/sal.mp3',
 
     api: 'https://script.google.com/macros/s/AKfycbz0PfcLdG3UXR6l6NTUeNzX-Grac2kwnGGEUkgqByhxGHiMw-_c4JF2R-aM5Iw62dECsQ/exec',
 
