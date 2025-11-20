@@ -100,19 +100,27 @@ export const data = {
         },
         {
             id: 5,
-            image: './src/assets/images/4.jpg'
+            image: './src/assets/images/duduk.jpeg'
         },
         {
             id: 6,
-            image: './src/assets/images/5.jpg'
+            image: './src/assets/images/4.jpg'
         },
         {
             id: 7,
-            image: './src/assets/images/6.jpg'
+            image: './src/assets/images/5.jpg'
         },
         {
             id: 8,
+            image: './src/assets/images/6.jpg'
+        },
+        {
+            id: 9,
             image: './src/assets/images/7.png'
+        },
+        {
+            id: 10,
+            image: './src/assets/images/merem.jpg'
         }
     ],
 
