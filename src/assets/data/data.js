@@ -151,7 +151,7 @@ export const data = {
             id: 2,
             date: '2023 - 2025',
             title: 'Perjalanan Bersama',
-            description: 'Katanya, cinta dapat tumbuh melalui kebersamaan. Seiring berjalannya waktu, kami semakin dekat dan saling memahami. Kami menjalin hubungan selama dua tahun hingga akhirnya kami melangsungkan lamaran pada tanggal 6 September 2025.',
+            description: 'Seiring waktu, pertemuan kami berkembang menjadi kisah yang kami rawat dengan lembut. Kami menjalin hubungan yang penuh warna, belajar dan tumbuh bersama, membangun kepercayaan dan pengertian. Bukan perjalanan mudah, tapi kami tahu hati yang ditujukan untuk menetap akan selalu menemukan jalannya. Hingga akhirnya, kami melangsungkan lamaran pada 6 September 2025, awal baru dalam perjalanan kami.',
             image: './src/assets/images/fam1.png'
         },
         {
