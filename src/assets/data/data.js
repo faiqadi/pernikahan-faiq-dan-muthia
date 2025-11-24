@@ -158,7 +158,7 @@ export const data = {
             id: 3,
             date: '2025',
             title: 'Menuju Pelaminan',
-            description: 'Kehendak-Nya mempertemukan kami pada waktu yang tak terduga. Dengan penuh rasa syukur, kami akan mengikrarkan janji suci pernikahan pada 6 Desember 2025, memulai perjalanan hidup bersama dalam cinta dan keberkahan.',
+            description: 'Akhirnya, kami melangkah ke hari yang selama ini kami panjatkan dalam doa. Yaitu mengikrarkan janji suci pernikahan pada 6 Desember 2025, memulai perjalanan hidup bersama dalam cinta dan keberkahan. Bukan karena waktu yang panjang, tapi karena keyakinan yang kuat bahwa cinta yang diridhoi Allah pasti akan menemukan jalannya.',
             image: './src/assets/images/1.jpeg'
         }
     ],
