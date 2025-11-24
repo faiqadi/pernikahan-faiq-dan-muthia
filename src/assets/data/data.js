@@ -144,7 +144,7 @@ export const data = {
             id: 1,
             date: '2023',
             title: 'Awal Bertemu',
-            description: 'Tidak ada yang kebetulan di dunia ini. Semua sudah tersusun dengan sangat rapi oleh Sang Maha Kuasa. Kita tidak bisa memilih kepada siapa kita akan jatuh cinta, karena cinta datang pada waktu yang tepat. Kami dipertemukan untuk pertama kalinya pada tahun 2023 di Alun-Alun Kidul, Kota Yogyakarta — sebuah pertemuan sederhana yang kemudian menjadi awal dari kisah indah kami.',
+            description: 'Di tahun yang sederhana itu, kami dipertemukan tanpa rencana di Alun-Alun Kidul, Yogyakarta, pada 2023. Pertemuan yang tidak dramatis, tapi cukup untuk menumbuhkan rasa yang perlahan berubah menjadi doa. Karena cinta datang pada waktu yang tepat, sesuai rencana Sang Maha Kuasa. Awal dari kisah indah kami.',
             image: './src/assets/images/tour.png'
         },
         {
